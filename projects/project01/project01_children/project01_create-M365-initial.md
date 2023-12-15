@@ -89,4 +89,4 @@ Please make your way to the [next section], where we'll be adding our custom dom
 
 [Microsoft 365 Developer Program]: https://developer.microsoft.com/en-us/microsoft-365/dev-program
 [M365 Developer Program dashboard]: https://developer.microsoft.com/en-us/microsoft-365/profile
-[next section]: (/projects/project01/project01_children/project01_create-M365-domain)
+[next section]: /projects/project01/project01_children/project01_create-M365-domain
