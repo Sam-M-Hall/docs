@@ -7,6 +7,14 @@ nav_order: 4
 ---
 
 
+# OPNSsense - Access
+
+In this section, I will explain how to properly enable access to the OPNsense Management Dashboard via the WAN Interface.  
+
+
+---
+
+
 ## OPNsense Getting to the Dashboard
 
 Before proceeding with the following directions, we will need to disable the firewall rules by performing a command within the shell.  
@@ -71,13 +79,5 @@ Within the shell again, verify the firewall rules are running again by entering 
 Close your browser completely and verify connectivity via the **WAN** interface.  
 
 
----
-
-
-{: .new-title}
-> Preperation Finished!
->
-We've successfully prepared the VM for OPNsense!
-Please make your way to the [next section], where we'll be finalizing some account details!
-
-[next section]: /projects/project01/project01_children/project01_create-onprem-opnsense-initialize
+{: .important}
+Pausing here to begin development of the on-prem domain environment. -12/21/2023

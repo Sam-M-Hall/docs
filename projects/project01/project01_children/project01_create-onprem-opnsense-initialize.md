@@ -7,6 +7,14 @@ nav_order: 3
 ---
 
 
+# OPNsense - Initialization
+
+In this section, I will overview the initialization of the OPNsense Firewall.  
+
+
+---
+
+
 ## OPNsense Initialization
 
 Now that we've configured the Virtual Machine, we can start it and perform the first-time setup.  

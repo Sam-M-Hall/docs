@@ -1,12 +1,18 @@
 ---
 layout: page
-title: OPNsense - Prep
+title: OPNsense - Prepare
 parent: Create On-Prem Environment
 grand_parent: On-Prem to Azure
 nav_order: 2
 ---
 
-In this section, I will overview the entire setup process for using OPNSense as the firewall for our LAB environment. This will allow us to properly segment our network even further and provide core networking services.  
+
+# OPNsense - Preparation
+
+In this section, I will overview the preparation of the OPNsense Virtual Machine to be used within the on-prem environment. We will be configuring it in later sections.  
+
+
+---
 
 
 ## Downloading the ISO
@@ -17,7 +23,9 @@ Navigate to the download page here and download the ISO for OPNsense by selectin
 {: .warning}
 You will need to extract the ISO using a program that can handle zipped files, as Windows' Built-In file extractor can't properly interact with the ISO archive file.   
 
+
 ---
+
 
 ## OPNsense VM Creation
 
@@ -43,7 +51,9 @@ Select ***Store virtual disk as a single file*** and click ***Next***.
 Uncheck the ***Power on this virtual machine after creation*** option, as we will be performing more configuration after this.  
 ![](/assets/images/projects/project01/create-on-prem/vmware-opnsense-6.png "OPNsense - VM Setup 6")  
 
+
 ---
+
 
 ## OPNsense VM Advanced Configuration
 

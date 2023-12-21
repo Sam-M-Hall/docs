@@ -8,7 +8,9 @@ nav_order: 1
 
 # VMware Workstation Setup
 
-In this section, I will guide you through the setup process for VMware Workstation. 
+In this section, I will guide you through the setup process for VMware Workstation.  
+This will be used to host the virtual machines within our on-prem environment.  
+
 
 ---
 
