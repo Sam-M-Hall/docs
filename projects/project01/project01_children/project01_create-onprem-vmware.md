@@ -6,6 +6,13 @@ grand_parent: On-Prem to Azure
 nav_order: 1
 ---
 
+# VMware Workstation Setup
+
+In this section, I will guide you through the setup process for VMware Workstation. 
+
+---
+
+
 ## Download
 You can download VMware Workstation Pro from [here](https://www.vmware.com/products/workstation-pro/workstation-pro-evaluation.html).
 
@@ -95,4 +102,4 @@ Enter the ***Subnet IP*** information you'd like to use for this virtual network
 We've successfully installed VMware Workstation Pro and configured the Virtual Network.  
 Please make your way to the [next section], where we'll be adding our custom domain!
 
-[next section]: /projects/project01/project01_children/project01_create-onprem-opnsense
+[next section]: /projects/project01/project01_children/project01_create-onprem-opnsense-prep
