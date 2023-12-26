@@ -35,12 +35,12 @@ The below keyboard shortcuts are used to interact with the installer.
 `↑` `↓` `←` `→`  | navigation
 `Spacebar` | select an entry
 `Enter` | confirm the panel and process to the next
-`Tab` | toggle panel confirmation option (ie. **Select** or **Cancel**){:.sc}
+`Tab` | toggle panel confirmation option (ie. **Select** or **Cancel**)
 
 Choose a keymap that's appropriate for your region, or simply accept the defaults. Press `Enter`  
 ![](/assets/images/projects/project01/create-on-prem/opnsense/opnsense-install-2.png "OPNsense - Install 2"){:.sc}  
 
-Documentation for OPNsense states the recommended format for the partition is **ZFS**, so navigate to the ***Install (ZFS){:.sc}*** entry and press `Enter`.  
+Documentation for OPNsense states the recommended format for the partition is **ZFS**, so navigate to the ***Install (ZFS)*** entry and press `Enter`.  
 ![](/assets/images/projects/project01/create-on-prem/opnsense/opnsense-install-3.png "OPNsense - Install 3"){:.sc}  
 
 Since we only have one disk, we'll be accepting the default ***stripe*** partitioning option for our ***ZFS Configuration***.  Press `Enter`  
@@ -127,7 +127,7 @@ Enter the following information for the below prompts:
 
 Configure IPv4 address LAN interface via DHCP? `N`  
 Enter the new LAN IPv4 address. Press ENTER for none: `10.10.100.1`  
-Enter the new LAN IPv4 subnet bit count (1 to 32){:.sc}: `24`  
+Enter the new LAN IPv4 subnet bit count (1 to 32): `24`  
 For a WAN/LAN: `Enter`  
 ![](/assets/images/projects/project01/create-on-prem/opnsense/opnsense-12.png "OPNsense - Initial Config 12"){:.sc}  
 
@@ -174,7 +174,7 @@ Restore web GUI access defaults? `Y`
 
 ## OPNsense VM Config Cleanup
 
-Open the settings for the Virtual Machine again and navigate to the ***CD/DVD (IDE){:.sc}*** item.  
+Open the settings for the Virtual Machine again and navigate to the ***CD/DVD (IDE)*** item.  
 ![](/assets/images/projects/project01/create-on-prem/opnsense/opnsense-install-13.png "OPNsense - Install 13"){:.sc}  
 Select it and then choose ![](/assets/images/projects/project01/create-on-prem/opnsense/vmware-opnsense-config-btn-remove.png "OPNsense - Remove Button"){:.sc}  
 

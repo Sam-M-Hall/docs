@@ -8,7 +8,7 @@ nav_order: 2
 
 
 # OPNsense - Preparation
-
+ 
 In this section, I will overview the preparation of the OPNsense Virtual Machine to be used within the on-prem environment. We will be configuring it in later sections.  
 
 
