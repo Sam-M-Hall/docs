@@ -48,7 +48,7 @@ As previously mentioned, I'll be stopping here for the day with an asset drop an
 ![](/assets/images/projects/project01/create-on-prem/dc01/roles/dc01-roles-11.png "DC01 - Roles - 11"){:.sc}  
 
 
-![](/assets/images/projects/project01/create-on-prem/dc01/roles/dc01-roles-12.png "DC01 - Roles - 12"){:.sc}  roles - 1
+![](/assets/images/projects/project01/create-on-prem/dc01/roles/dc01-roles-12.png "DC01 - Roles - 12"){:.sc}  
 
 
 ![](/assets/images/projects/project01/create-on-prem/dc01/roles/dc01-roles-13.png "DC01 - Roles - 13"){:.sc}  
