@@ -40,7 +40,7 @@ Click ***Browse...*** and select the ISO file from earlier.
 
 Name the virtual machine whatever you want, I went with "OPNsense" to keep things simple. Now choose the storage location for *where* you want to store the Virtual Machine. Click ***Next***.  
 
-{: .note}
+{: .important}
 When choosing a location, be sure to organize the VMs there into separate folders, as VMware Workstation Pro will drop all associated files into the folder you specify ***without*** creating an organizational folder for you.  
 
 ![](/assets/images/projects/project01/create-on-prem/opnsense/vmware-opnsense-4.png "OPNsense - VM Setup 4"){:.sc}  
@@ -86,7 +86,7 @@ Click ***OK*** at the bottom, then go back into the settings once again. You sho
 
 
 {: .new-title}
-> Preperation Finished!
+> Preparation Finished!
 >
 We've successfully prepared the VM for OPNsense!
 Please make your way to the [next section], where we'll be initializing our OPNsense Firewall!

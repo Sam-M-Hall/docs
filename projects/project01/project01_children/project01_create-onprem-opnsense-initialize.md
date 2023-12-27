@@ -183,9 +183,9 @@ Select it and then choose ![](/assets/images/projects/project01/create-on-prem/o
 
 
 {: .new-title}
-> Preperation Finished!
+> Initialtization Finished!
 >
 We've successfully initialized our OPNsense Firewall!
-Please make your way to the [next section], where we'll be configuring access to our OPnsense Firewall!
+Please make your way to the [next section], where we'll be configuring access to our OPNsense Firewall!
 
 [next section]: /projects/project01/project01_children/project01_create-onprem-opnsense-access

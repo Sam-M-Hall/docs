@@ -66,7 +66,9 @@ After some time, we're brought back to the overview of adding our domain, where 
 We've successfully added a domain to our M365 Environment and can see it in the ***Domains*** section.  
 ![](/assets/images/projects/project01/create-M365-environment/M365-admin-domains-overview.png "M365 - Domains Overview"){:.sc}
 
+
 ---
+
 
 {: .new-title}
 > On a roll!

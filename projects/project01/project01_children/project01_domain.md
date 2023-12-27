@@ -39,7 +39,9 @@ Within the website you've selected, you'll now see the Overview page. Select the
 There isn't much here, except some simple instructions to guide you along with creating records and helpful info regarding your assigned ***Cloudflare Nameservers***.  
 ![](/assets/images/projects/project01/obtaining-a-domain/cloudflare_DNS-records-overview.png "DNS Overview"){:.sc}
 
-
+{: .new-title}
+> That was easy!
+>
 For now, we're finished here and can move on to [Creating the M365 Environment]!
 
 

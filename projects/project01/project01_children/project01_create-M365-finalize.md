@@ -43,6 +43,7 @@ You will be brought back to the ***User properties*** page for your account.
 {: .important}
 If the old info is still present, click the ![](/assets/images/projects/project01/create-M365-environment/M365-admin-user-setup-8-1.png "M365 - User Setup 8-1"){:.sc} button to update the screen.  
 
+
 ---
 
 

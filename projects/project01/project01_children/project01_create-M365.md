@@ -10,7 +10,7 @@ has_children: true
 
 Microsoft is kind enough to lend us its resources for ***free*** under the [Microsoft 365 Developer Program].
 
-Head on over to the developer website and follow the guides within this section to complete setup!
+Head on over to the developer website and follow the guides within this section to complete the setup!
 
 {: .highlight-title}
 > PRO TIP

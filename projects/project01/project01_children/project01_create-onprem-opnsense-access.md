@@ -78,6 +78,12 @@ Within the shell again, verify the firewall rules are running again by entering 
 
 Close your browser completely and verify connectivity via the **WAN** interface.  
 
+---
 
-{: .important}
-Pausing here to begin development of the on-prem domain environment. -12/21/2023
+{: .new-title}
+> On to bigger things!
+>
+We've successfully setup and configured our OPNsense Firewall!
+Please make your way to the [next section], where we'll be setting up our first Windows Server, DC01!
+
+[next section]: /projects/project01/project01_children/project01_create-onprem-dc01-prep
