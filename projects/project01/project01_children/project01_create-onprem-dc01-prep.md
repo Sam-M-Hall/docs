@@ -75,17 +75,20 @@ You can find this info by simply pressing `WIN` + `R` to open ***Run*** and typi
 Look for the line that says ***Processor***, at the end it states ***X Logical Processors***.  
 ![](/assets/images/projects/project01/create-on-prem/dc01/sys-info-2.png "DC01 - Sys-Info - 2"){:.sc}  
 
-Select ***Processors***, then select the number of ***individual physical CPUs*** for ***Number of processors*** you'd like to assign to DC01.  
+Select ***Processors***, then select the number of ***physical CPU sockets*** for ***Number of processors*** you'd like to assign to DC01.  
 
 {: .note}
-**One is fine**, but Windows Server 2022 can handle up to 64, so you can play around with this setting as you see fit.  
+**One is fine**, but Windows Server 2022 can handle up to 64 sockets, so you can play around with this setting as you see fit.  
 
-Select the number of ***individual logical CPU cores*** you'd like to assign. I went with **4** for now.  
+Select the number of ***logical CPU cores*** you'd like to assign. I went with **4** for now.  
+
+{: .warning}
+Don't assign all your resources to one VM! Leave resources for your host machine and other VMs!  
 
 Lastly, verify both boxes under the ***Virtualization engine*** section are selected.  
 ![](/assets/images/projects/project01/create-on-prem/dc01/setup/vmware-dc01-9.png "DC01 - VMware - 9"){:.sc}  
 
-Up next, let's add our installation disk. Select ***New CD/DVD (SATA)*** then click the ***Use ISo image file:*** radio button and browse to the previously downloaded Windows Server 2022 ISO from Microsoft.  
+Up next, let's add our installation disk. Select ***New CD/DVD (SATA)*** then click the ***Use ISO image file:*** radio button and browse to the previously downloaded Windows Server 2022 ISO from Microsoft.  
 ![](/assets/images/projects/project01/create-on-prem/dc01/setup/vmware-dc01-10.png "DC01 - VMware - 10"){:.sc}  
 
 For the final step, assign ***VMnet10*** to the ***Network Adapter***. Select ***Network Adapter***, choose the ***Custom: Specific virtual network*** radio button and lastly choose ***VMnet10*** from the drop-down menu.  
@@ -110,7 +113,7 @@ Once the ISO loads, we're met with the localization page for the installer. Sele
 On the following page, simply click 
 ![](/assets/images/projects/project01/create-on-prem/dc01/setup/dc01-install-3.png "DC01 - Install - 3"){:.sc}  
 
-I'll be choosing ***Standard Evaluation (Desktop Experience)*** as my OS version. make your selection and click ***Next***.  
+I'll be choosing ***Standard Evaluation (Desktop Experience)*** as my OS version. Make your selection and click ***Next***.  
 ![](/assets/images/projects/project01/create-on-prem/dc01/setup/dc01-install-4.png "DC01 - Install - 4"){:.sc}  
 
 Review the ***Applicable notices and license terms*** page, check the box at the bottom if you decide to accept, and click ***Next***.  
