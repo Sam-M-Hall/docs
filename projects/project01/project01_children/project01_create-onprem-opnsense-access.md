@@ -7,15 +7,20 @@ nav_order: 4
 ---
 
 
+
 # OPNSsense - Access
 
+
 In this section, I will explain how to properly enable access to the OPNsense Management Dashboard via the WAN Interface.  
+
 
 
 ---
 
 
+
 ## OPNsense Getting to the Dashboard
+
 
 Before proceeding with the following directions, we will need to disable the firewall rules by performing a command within the shell.  
 
@@ -38,9 +43,14 @@ Then click ***Continue***.
 Login to the OPNsense dashboard by using the same `root` user account from earlier.  
 ![](/assets/images/projects/project01/create-on-prem/opnsense/opnsense-config-gui-access-4.png "OPNsense - GUI Access 4"){:.sc}  
 
+
+
 ---
 
+
+
 ## Enabling WAN Access for OPNsense
+
 
 {: .warning}
 If at any point you get disconnected, or think it's working, close your browser completely to terminate the session.  
@@ -72,18 +82,24 @@ Back on the ***WAN Rules*** page, we'll see a banner at the top of the page.
 
 Click ![](/assets/images/projects/project01/create-on-prem/opnsense/opnsense-config-gui-btn-apply.png "OPNsense - GUI WAN Access - Apply"){:.sc} to apply the newly created rule. This will restart the firewall services.  
 
-
 Within the shell again, verify the firewall rules are running again by entering `pfctl -e`.  
 ![](/assets/images/projects/project01/create-on-prem/opnsense/opnsense-config-disable-3.png "OPNsense - Disable 3"){:.sc}  
 
 Close your browser completely and verify connectivity via the **WAN** interface.  
 
+
+
 ---
+
+
 
 {: .new-title}
 > On to bigger things!
 >
 We've successfully setup and configured our OPNsense Firewall!
 Please make your way to the [next section], where we'll be setting up our first Windows Server, DC01!
+
+
+
 
 [next section]: /projects/project01/project01_children/project01_create-onprem-dc01-prep

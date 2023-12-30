@@ -6,7 +6,10 @@ grand_parent: On-Prem to Azure
 nav_order: 3
 ---
 
+
+
 ## Final touches before On-Prem setup.
+
 
 Since we've got the domain set up on our account now, we can modify our admin account with proper information and email domain.  
 
@@ -23,11 +26,13 @@ You'll be brought to the ***Users Dashboard*** where we can see an overview of a
 Once inside the ***User properties*** screen select the ***Edit properties*** button on the ribbon.  
 ![](/assets/images/projects/project01/create-M365-environment/M365-admin-user-setup-4.png "M365 - User Setup 4"){:.sc}
 
+
 Inside the ***Edit properties*** pane, we can now modify the details of our account.  
 1. Display Name
 2. First Name
 3. Last Name
 4. User principal name - domain
+
 
 ![](/assets/images/projects/project01/create-M365-environment/M365-admin-user-setup-5.png "M365 - User Setup 5"){:.sc}
 
@@ -44,7 +49,9 @@ You will be brought back to the ***User properties*** page for your account.
 If the old info is still present, click the ![](/assets/images/projects/project01/create-M365-environment/M365-admin-user-setup-8-1.png "M365 - User Setup 8-1"){:.sc} button to update the screen.  
 
 
+
 ---
+
 
 
 {: .new-title}
@@ -52,6 +59,7 @@ If the old info is still present, click the ![](/assets/images/projects/project0
 >
 We've successfully finalized our account details!  
 Please make your way to the [next section], where we'll be creating the on-premise environment!  
+
 
 
 [Microsoft 365 Developer Program]: https://developer.microsoft.com/en-us/microsoft-365/dev-program

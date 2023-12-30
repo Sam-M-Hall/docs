@@ -100,8 +100,10 @@ Accept the defaults for the Domain & Forest functional levels.
 
 Enter a different and secure password for the ***Directory Services Restore Mode (DSRM)*** password field.  
 
+
 {: .warning}
 It's ***HIGHLY SUGGESTED*** to store this password somewhere secure and available.  
+
 
 Click ***Next >***.  
 ![](/assets/images/projects/project01/create-on-prem/dc01/roles/dc01-ad-initial-2.png "DC01 - AD DS - 2"){:.sc}  

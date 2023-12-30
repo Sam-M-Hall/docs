@@ -7,15 +7,20 @@ nav_order: 3
 ---
 
 
+
 # OPNsense - Initialization
 
+
 In this section, I will overview the initialization of the OPNsense Firewall.  
+
 
 
 ---
 
 
+
 ## OPNsense Initialization
+
 
 Now that we've configured the Virtual Machine, we can start it and perform the first-time setup.  
 ![](/assets/images/projects/project01/create-on-prem/vmware/vmware-power-edit.png "VMware - Power/Edit"){:.sc}  
@@ -71,7 +76,9 @@ You will see a banner message informing you that ***"The installation finished s
 ![](/assets/images/projects/project01/create-on-prem/opnsense/opnsense-install-12.png "OPNsense - Install 12"){:.sc}  
 
 
+
 ---
+
 
 
 {: .important} 
@@ -169,17 +176,22 @@ Restore web GUI access defaults? `Y`
 ![](/assets/images/projects/project01/create-on-prem/opnsense/opnsense-17.png "OPNsense - Initial Config 17"){:.sc}  
 
 
+
 ---
 
 
+
 ## OPNsense VM Config Cleanup
+
 
 Open the settings for the Virtual Machine again and navigate to the ***CD/DVD (IDE)*** item.  
 ![](/assets/images/projects/project01/create-on-prem/opnsense/opnsense-install-13.png "OPNsense - Install 13"){:.sc}  
 Select it and then choose ![](/assets/images/projects/project01/create-on-prem/opnsense/vmware-opnsense-config-btn-remove.png "OPNsense - Remove Button"){:.sc}  
 
 
+
 ---
+
 
 
 {: .new-title}
@@ -187,5 +199,7 @@ Select it and then choose ![](/assets/images/projects/project01/create-on-prem/o
 >
 We've successfully initialized our OPNsense Firewall!
 Please make your way to the [next section], where we'll be configuring access to our OPNsense Firewall!
+
+
 
 [next section]: /projects/project01/project01_children/project01_create-onprem-opnsense-access

@@ -41,9 +41,11 @@ Sign in to the ***Administrator*** account.
 When you sign into Windows Server 2022, ***Server Manager*** automatically launches.  
 ![](/assets/images/projects/project01/create-on-prem/dc01/initial/dc01-initial-setup-6.png "DC01 - Initial - 6"){:.sc}  
 
+
 {: .note}
 You'll see a popup concerning ***Windows Admin Center*** which can be permanently dismissed by clicking the ***Don't show this message again*** checkbox and closing the window.  
 ![](/assets/images/projects/project01/create-on-prem/dc01/initial/dc01-initial-setup-7.png "DC01 - Initial - 7"){:.sc}  
+
 
 On the sidebar, click 
 ![](/assets/images/projects/project01/create-on-prem/dc01/initial/dc01-initial-setup-7-1.png "DC01 - Initial  - 7-1"){:.sc}  
@@ -76,7 +78,6 @@ We received a message stating a restart is required for the changes to take effe
 ![](/assets/images/projects/project01/create-on-prem/dc01/initial/dc01-initial-setup-11.png "DC01 - Initial - 11"){:.sc}  
 
 You'll also notice a warning on the ***System Properties*** Panel.  
-
 ![](/assets/images/projects/project01/create-on-prem/dc01/initial/dc01-initial-setup-12.png "DC01 - Initial - 12"){:.sc}  
 
 Press **OK** to save the configuration.  
@@ -238,7 +239,9 @@ We can also see our Updates and Time Zone entries are updated and accurate.
 ![](/assets/images/projects/project01/create-on-prem/dc01/initial/dc01-initial-setup-33.png "DC01 - Initial - 33"){:.sc}  
 
 
+
 ---
+
 
 
 {: .new-title}
@@ -246,5 +249,7 @@ We can also see our Updates and Time Zone entries are updated and accurate.
 >
 We've successfully initialized our Windows Server!
 Please make your way to the [next section], where we'll be configuring Roles & Features!
+
+
 
 [next section]: /projects/project01/project01_children/project01_create-onprem-dc01-roles

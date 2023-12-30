@@ -6,7 +6,10 @@ grand_parent: On-Prem to Azure
 nav_order: 2
 ---
 
+
+
 ## Adding your domain to the M365 Developer Program environment.
+
 
 Now that we've signed up for and initialized the M365 Environment, let's add our purchased domain within the ***Domains*** section. This will allow us to fully utilize the domain across M365.  
 
@@ -60,14 +63,20 @@ After authorization is confirmed, we're met with another loading screen.
 After some time, we're brought back to the overview of adding our domain, where we should receive a message stating *"Domain setup is complete"*. Click ![](/assets/images/projects/project01/create-M365-environment/M365-admin-domains-add-4-1.png "M365 - Domains Add Page 4 - Done"){:.sc} to exit the setup.  
 ![](/assets/images/projects/project01/create-M365-environment/M365-admin-domains-add-4.png "M365 - Domains Add Page 4 - Complete"){:.sc}
 
+
+
 ---
+
+
 
 ## Congratulations!  
 We've successfully added a domain to our M365 Environment and can see it in the ***Domains*** section.  
 ![](/assets/images/projects/project01/create-M365-environment/M365-admin-domains-overview.png "M365 - Domains Overview"){:.sc}
 
 
+
 ---
+
 
 
 {: .new-title}
@@ -75,6 +84,8 @@ We've successfully added a domain to our M365 Environment and can see it in the 
 >
 We've successfully added our custom domain to the M365 Environment!  
 Please make your way to the [next section], where we'll be finalizing some account details!
+
+
 
 [Microsoft 365 Developer Program]: https://developer.microsoft.com/en-us/microsoft-365/dev-program
 [M365 Developer Program dashboard]: https://developer.microsoft.com/en-us/microsoft-365/profile

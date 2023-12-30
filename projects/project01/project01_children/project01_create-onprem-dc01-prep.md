@@ -7,9 +7,12 @@ nav_order: 5
 ---
 
 
+
 # DC01 - Preparation
 
+
 In this section, I will overview the preparation of the DC01 Virtual Machine to be used within the on-prem environment. We will be configuring it in later sections.
+
 
 {: .highlight-title}
 > PRO TIP
@@ -17,19 +20,25 @@ In this section, I will overview the preparation of the DC01 Virtual Machine to 
 *'DC'* means *'Domain Controller'*
 
 
+
 ---
+
 
 
 ## Download Windows Server 2022 ISO
 
+
 Navigate to the [Microsoft Evaluation Center] page for Windows Server 2022 and click the appropriate download link that meets your localization preferences.  
 ![](/assets/images/projects/project01/create-on-prem/dc01/setup/WS2022-download-1.png "DC01 - ISO Download"){:.sc}  
+
 
 {: .important}
 Remember where you're saving this as we'll be using it in the next step.  
 
 
+
 ---
+
 
 
 ## Virtual Machine Creation
@@ -51,8 +60,10 @@ Now choose the ***Microsoft Windows*** radio button and select ***Windows Server
 
 Let's name our virtual machine and set the location.  
 
+
 {: .important}
 When choosing a location, be sure to organize the VMs there into separate folders, as VMware Workstation Pro will drop all associated files into the folder you specify ***without*** creating an organizational folder for you.  
+
 
 ![](/assets/images/projects/project01/create-on-prem/dc01/setup/vmware-dc01-5.png "DC01 - VMware - 5"){:.sc}  
 
@@ -67,6 +78,7 @@ Set the memory to 4GB by selecting ***Memory***, clicking **4GB** on the selecto
 
 Set the processors to within reason as compared to the maximum logical processors for your PC.  
 
+
 {: .highlight-title}
 > PRO TIP
 >
@@ -75,6 +87,7 @@ You can find this info by simply pressing `WIN` + `R` to open ***Run*** and typi
 Look for the line that says ***Processor***, at the end it states ***X Logical Processors***.  
 ![](/assets/images/projects/project01/create-on-prem/dc01/sys-info-2.png "DC01 - Sys-Info - 2"){:.sc}  
 
+
 Select ***Processors***, then select the number of ***physical CPU sockets*** for ***Number of processors*** you'd like to assign to DC01.  
 
 {: .note}
@@ -82,8 +95,10 @@ Select ***Processors***, then select the number of ***physical CPU sockets*** fo
 
 Select the number of ***logical CPU cores*** you'd like to assign. I went with **4** for now.  
 
+
 {: .warning}
 Don't assign all your resources to one VM! Leave resources for your host machine and other VMs!  
+
 
 Lastly, verify both boxes under the ***Virtualization engine*** section are selected.  
 ![](/assets/images/projects/project01/create-on-prem/dc01/setup/vmware-dc01-9.png "DC01 - VMware - 9"){:.sc}  
@@ -95,14 +110,18 @@ For the final step, assign ***VMnet10*** to the ***Network Adapter***. Select **
 ![](/assets/images/projects/project01/create-on-prem/dc01/setup/vmware-dc01-11.png "DC01 - VMware - 11"){:.sc}  
 
 
+
 ---
+
 
 
 ## Installation of Windows Server 2022
 
+
 {: .important} 
 Be ready to interact with the Virtual Machine after it boots!  
 Make sure you ***click into the VM*** after powering it on!  
+
 
 Alright, let's start the installation of Windows Server! Simply power on the Virtual Machine and press any key to initiate the boot from the ISO we have attached. 
 ![](/assets/images/projects/project01/create-on-prem/dc01/setup/dc01-install-1.png "DC01 - Install - 1"){:.sc}  
@@ -129,7 +148,9 @@ Patiently wait for the installation process to finish. The system will automatic
 ![](/assets/images/projects/project01/create-on-prem/dc01/setup/dc01-install-8.png "DC01 - Install - 8"){:.sc}   
 
 
+
 ---
+
 
 
 {: .new-title}

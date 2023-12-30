@@ -6,13 +6,18 @@ grand_parent: On-Prem to Azure
 nav_order: 1
 ---
 
+
+
 # VMware Workstation Setup
+
 
 In this section, I will guide you through the setup process for VMware Workstation.  
 This will be used to host the virtual machines within our on-prem environment.  
 
 
+
 ---
+
 
 
 ## Download
@@ -21,9 +26,14 @@ You can download VMware Workstation Pro from [here](https://www.vmware.com/produ
 Scroll down on the page and click ***Download Now***.
 ![](/assets/images/projects/project01/create-on-prem/vmware/vmware-download-1.png "VMware Download"){:.sc}  
 
+
+
 ---
 
+
+
 ## Installation Process
+
 
 Run the installer and follow along with the guide below.  
 
@@ -51,9 +61,14 @@ You'll see the installer proceed with the installation process. Wait for it to f
 If you'd like to enter a license, click the ***License*** button, if not click ***Finish***.  
 ![](/assets/images/projects/project01/create-on-prem/vmware/vmware-install-8.png "VMware Install - 8"){:.sc}  
 
+
+
 ---
 
+
+
 ## Licensing (optional)
+
 
 If you have chosen to enter a license, do so on this page.  
 ![](/assets/images/projects/project01/create-on-prem/vmware/vmware-install-9.png "VMware Install - 9"){:.sc}  
@@ -61,9 +76,14 @@ If you have chosen to enter a license, do so on this page.
 Once you've entered the license, click ***Enter***.  
 ![](/assets/images/projects/project01/create-on-prem/vmware/vmware-install-10.png "VMware Install - 10"){:.sc}  
 
+
+
 ---
 
+
+
 ## Initial Setup
+
 
 On the initial launch of VMware Workstation Pro, we'll have to either enter a licensing key or continue without one by accepting the trial option. Click ***Continue***.  
 ![](/assets/images/projects/project01/create-on-prem/vmware/vmware-setup-1.png "VMware Initial - 1"){:.sc}  
@@ -71,9 +91,15 @@ On the initial launch of VMware Workstation Pro, we'll have to either enter a li
 Click ***Finish***.  
 ![](/assets/images/projects/project01/create-on-prem/vmware/vmware-setup-2.png "VMware Initial - 2"){:.sc}  
 
+
+
 ---
 
+
+
 ## Virtual Network Editor Config
+
+
 Before we continue with creating anything within VMware Workstation, we need to perform the initial setup of our Virtual Network.  
 
 Click on ***Edit*** on the ribbon menu, then click ***Virtual Network Editor***.  
@@ -96,12 +122,19 @@ Now, select ***Host-only*** under the ***VMnet Information*** section, this will
 Enter the ***Subnet IP*** information you'd like to use for this virtual network and click ***OK***.  
 ![](/assets/images/projects/project01/create-on-prem/vmware/vmware-vnet-6.png "VMware VNet - 6"){:.sc}  
 
+
+
 ---
+
+
 
 {: .new-title}
 > On a roll!
 >
 We've successfully installed VMware Workstation Pro and configured the Virtual Network.  
 Please make your way to the [next section], where we'll be adding our custom domain!
+
+
+
 
 [next section]: /projects/project01/project01_children/project01_create-onprem-opnsense-prep

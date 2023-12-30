@@ -6,13 +6,21 @@ grand_parent: On-Prem to Azure
 nav_order: 1
 ---
 
+
+
 # Starting out!
+
 
 Let's join the [Microsoft 365 Developer Program] and initialize our M365 Environment.
 
+
+
 ---
 
+
+
 ## Joining the program and creating a Microsoft account.
+
 
 Once you're on the developer page, click the ***Join now >*** button.  
 ![](/assets/images/projects/project01/create-M365-environment/M365-button-join-now.png "M365 - Join now"){:.sc}
@@ -30,9 +38,14 @@ Now choose the ***Get a new email address*** hyperlink.
 Enter the email you'd like to create and utilize for this lab environment.  
 ![](/assets/images/projects/project01/create-M365-environment/M365-create-email.png "M365 - Create email"){:.sc}
 
+
+
 ---
 
+
+
 ## Initial Dev Environment setup.
+
 
 After creating our Microsoft account, we will be redirected to the Developer Program dashboard to configure the first-time setup of our environment.
 
@@ -47,15 +60,22 @@ On the next screen, we will be asked how we'll be using the Developer Program. C
 You will then be asked to select your interests within the Developer Program. Do so and click ***Save***.  
 ![](/assets/images/projects/project01/create-M365-environment/M365-dev-join-3.png "M365 - Dev Join Page 3"){:.sc}
 
+
+
 ---
+
+
 
 ## M365 E5 Sandbox initialization.
 
+
 After completing the initial setup of our Dev Environment, we will now activate the included M365 E5 Sandbox. You should automatically have a popup appear to complete this portion of the setup.  
+
 
 {: .note}
 If for some reason your dashboard doesn't auto-launch the setup process you can click the ***Set up E5 subscription >*** hyperlink to continue following along. This will be on the main page of your [M365 Developer Program dashboard].
 ![](/assets/images/projects/project01/create-M365-environment/M365-dev-lost.png "M365 - Dev Lost"){:.sc}
+
 
 Moving on, we will be choosing the ***Configurable sandbox*** option so that we can use the custom domain we just purchased. Click ***Next***.
 ![](/assets/images/projects/project01/create-M365-environment/M365-dev-setup-1.png "M365 - Dev Setup Page 1"){:.sc}
@@ -74,10 +94,15 @@ After the setup process is complete, you will be brought back to the dashboard a
 
 ![](/assets/images/projects/project01/create-M365-environment/M365-dev-setup-complete.png "M365 - Dev Setup Complete"){:.sc}
 
+
 {: .note}
 You will be required to sign into the M365 account you just created to access the admin dashboard.  
 
+
+
 ---
+
+
 
 {: .new-title}
 > On a roll!
